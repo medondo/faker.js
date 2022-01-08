@@ -1,6 +1,6 @@
 {
   "bugs": {
-    "url": "https://github.com/Marak/Faker.js/issues"
+    "url": "https://github.com/medondo/Faker.js/issues"
   },
   "contributors": [
     {
@@ -34,10 +34,10 @@
     "vinyl-source-stream": "^2.0.0",
     "vinyl-transform": "^1.0.0"
   },
-  "homepage": "https://github.com/Marak/Faker.js#readme",
+  "homepage": "https://github.com/medondo/Faker.js#readme",
   "license": "MIT",
   "main": "index.js",
-  "name": "@roundingwellos/faker",
+  "name": "@medondo/faker",
   "nyc": {
     "all": false,
     "include": [
@@ -65,7 +65,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Marak/Faker.js.git"
+    "url": "git+ssh://git@github.com/medondo/Faker.js.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.medondo.com/repository/npm-private/"
   },
   "scripts": {
     "browser": "gulp browser",
